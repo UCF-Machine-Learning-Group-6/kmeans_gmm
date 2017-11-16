@@ -306,7 +306,7 @@ def do_KMeans(col1, col2, col3):
     print ("Optimal Cluster Labels : " + str(optYlabels))
     print ("~" * 75)
     plt.figure("K Means Algorithm Elbow Plot " + str(col1) + str(col2) + str(col3))
-    plt.suptitle("K Means Algorithm Elbow Plot " + str(col1) + str(col2) + str(col3))
+    plt.suptitle("K Means Algorithm Elbow Plot " + filename + ' ' + str(col1) + str(col2) + str(col3))
     plt.plot(range(2, no_clusters + 1), cost_func_list)
     plt.plot(kvals[optKindex], cost_func_list[optKindex], 'ro')
     plt.ylabel("SSE")
