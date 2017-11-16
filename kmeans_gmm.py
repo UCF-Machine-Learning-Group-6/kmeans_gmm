@@ -452,7 +452,7 @@ def do_GMM(col1, col2, col3, init_centroid):
     print ("CostFunc List : ", cost_func_list)
     kvals = [k for k in range(2, (no_clusters + 1))]
     print ("K Values : ", kvals)
-    print ("NMI list", nnmi_list)
+    print ("NMI list : ", nnmi_list)
     cost_func_list = np.array(cost_func_list)
     optKindex = getOptimalK(cost_func_list, kvals)
     optK = kvals[optKindex]
