@@ -8,6 +8,6 @@ Scikit-Learn Model : Execute kmeans_gmm_sklearn.py
 
 Presentation of K-Means and GMM posted on :
 
-link here
+https://docs.google.com/presentation/d/1iRr3OP7NDrk1tp3nP6XyKZWYmkdmEv3_YAIYXL4evVw/edit?usp=sharing
 
 Group Members : Girish Kumar Kannan, Sashank Kottapalli, Ryan Fatt, Srikar Sarma P.V.
