@@ -6,6 +6,8 @@ Math Model : Execute kmeans_gmm.py
 
 Scikit-Learn Model : Execute kmeans_gmm_sklearn.py
 
+Check the .ipynb files for unit test and experiments with the dataset.
+
 Presentation of K-Means and GMM posted on :
 
 https://docs.google.com/presentation/d/1iRr3OP7NDrk1tp3nP6XyKZWYmkdmEv3_YAIYXL4evVw/edit?usp=sharing
