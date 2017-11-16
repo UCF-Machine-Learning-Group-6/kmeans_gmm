@@ -60,3 +60,6 @@ for n, color in enumerate(colors):
     plt.scatter(X[:, 0], gmm.predict(X), s=0.8, color=color,
                 label=labels)
 plt.show()
+
+
+# End of File
