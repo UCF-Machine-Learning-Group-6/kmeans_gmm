@@ -348,7 +348,7 @@ def do_KMeans(col1, col2, col3):
     Y_cols[Y_cols == Y_classes[2]] = 'b'
     ax = fig.add_subplot(1, 1, 1, projection='3d')
     ax.scatter(X[:, 0], X[:, 1], X[:, 2], c=Y_cols, s=30, alpha=1.0, edgecolor='k')
-    ax.scatter(C1, C2, C3, c=['m', 'm', 'm'], s=30, alpha=1.0, edgecolor='k')
+    ax.scatter(C1, C2, C3, c=['m', 'm', 'm'], s=100, alpha=1.0, edgecolor='k', marker='*')
     ax.set_xlabel('X1 ~ ' + str(col1))
     ax.set_ylabel('X2 ~ ' + str(col2))
     ax.set_zlabel('X3 ~ ' + str(col3))
